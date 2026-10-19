@@ -1,0 +1,36 @@
+.image-container {
+	position: relative;
+}
+
+.image-base {
+	object-fit: cover;
+}
+
+.image-overlay {
+	position: absolute;
+	height: auto;
+}
+
+.image-overlay-select {
+	position: absolute;
+	height: auto;
+	opacity: 0.7;
+}
+
+.image-overlay-select:hover {
+	opacity: 1;
+}
+
+.region_frame {
+	display: grid;
+}
+
+.region_frame>* {
+	grid-area: 1 / 1;
+}
+
+button {
+	background: none;
+    border: none;
+}
+
