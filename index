@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>медведь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="image-container">
+        <img id="f1" src="1.avif" alt="Фон" class="image-base" style="width: 400px;">
+        <button class="image-overlay-select" id="b1_1" style="top: 300px; left: 90px;"><img id="p1_1" src="медведь.png" alt="Поверх" style="width: 100px;"></button>
+        <button class="image-overlay-select" id="b1_2" style="top: 500px; left: 300px;"><img id="p1_2" src="медведь.png" alt="Поверх" style="width: 100px;"></button>
+    </div>
+    <div class="region_frame">
+    <div class="image-container">
+        <img id="f3" src="3.jpg" alt="Фон" class="image-base" style="width: 400px; opacity: 0;">
+        <button class="image-overlay-select" style="top: 50px; left: 120px;" id="b3_1" disabled><img id="p3_1" src="медведь.png" alt="Поверх" style="width: 100px; opacity: 0;"></button>
+        <button class="image-overlay-select" style="top: 150px; left: 10px;" id="b3_2" disabled><img id="p3_2" src="медведь.png" alt="Поверх" style="width: 100px; opacity: 0;"></button>
+    </div>
+    <div class="image-container">
+        <img id="f2" src="2.jpg" alt="Фон" class="image-base" style="width: 400px; opacity: 0;">
+        <button class="image-overlay-select" style="top: 250px; left: 150px;;" id="b2_1" disabled><img id="p2_1" src="медведь.png" alt="Поверх" style="width: 100px; opacity: 0;"></button>
+        <button class="image-overlay-select" style="top: 400px; left: 300px;" id="b2_2" disabled><img id="p2_2" src="медведь.png" alt="Поверх" style="width: 100px; opacity: 0;"></button>
+    </div>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>

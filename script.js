@@ -20,6 +20,8 @@ const f3 = document.getElementById('f3');
 b1_1.addEventListener('click', function() {
 	b2_1.removeAttribute('disabled');
 	b2_2.removeAttribute('disabled');
+	b2_1.style.zIndex = '10';
+	b2_2.style.zIndex = '10';
 	b1_1.style.opacity='1';
 	p1_2.style.opacity='0';
 	p2_1.style.opacity='1';
@@ -30,9 +32,31 @@ b1_1.addEventListener('click', function() {
 b1_2.addEventListener('click', function() {
 	b3_1.removeAttribute('disabled');
 	b3_2.removeAttribute('disabled');
+	b3_1.style.zIndex = '10';
+	b3_2.style.zIndex = '10';
 	b1_2.style.opacity='1';
 	p1_1.style.opacity='0';
 	p3_1.style.opacity='1';
 	p3_2.style.opacity='1';
 	f3.style.opacity='1';
+});
+
+b2_1.addEventListener('click', function() {
+	b2_1.style.opacity='1';
+	p2_2.style.opacity='0';
+});
+
+b2_2.addEventListener('click', function() {
+	b2_2.style.opacity='1';
+	p2_1.style.opacity='0';
+});
+
+b3_1.addEventListener('click', function() {
+	b3_1.style.opacity='1';
+	p3_2.style.opacity='0';
+});
+
+b3_2.addEventListener('click', function() {
+	b3_2.style.opacity='1';
+	p3_1.style.opacity='0';
 });

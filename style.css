@@ -32,5 +32,9 @@
 button {
 	background: none;
     border: none;
+    z-index: 1;
 }
 
+img {
+	z-index: 1;
+}
